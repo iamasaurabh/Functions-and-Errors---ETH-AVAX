@@ -18,6 +18,15 @@ This Solidity smart contract is designed to demonstrate basic validation and err
 Solidity Compiler: Make sure you have a Solidity compiler version that is compatible with the contract (e.g., ^0.8.0).
 Ethereum Development Framework: Install and set up an Ethereum development framework like Truffle, Remix, or any other of your choice
 
+## assert(): 
+The assert function, like require, is a convenience function that checks for conditions. If a condition fails, then the function execution is terminated with an error message.
+assert() takes only one parameter as input. You pass a condition to assert(), and if the condition is true, then the function execution continues and the execution jumps to the next statement in the function. The assert() statement is defined as:
+
+assert(<condition to be checked/validated>);
+
+## revert():
+Can be used to flag an error and revert the current call. You can also provide a message containing details about the error, and the message will be passed back to the caller. However, the message, like in require(), is an optional parameter. revert() causes the EVM to revert all the changes made to the state, and things return to the initial state or the state before the function call was made.
+
 ### Installing
 
 No installation required, we can use Remix IDE for execution of contract.
