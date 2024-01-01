@@ -20,7 +20,7 @@ Ethereum Development Framework: Install and set up an Ethereum development frame
 
 ### Installing
 
-**Install and set up an Ethereum development framework like Truffle, Remix, or any other of your choice**
+No installation required, we can use Remix IDE for execution of contract.
 
 
 ## Authors
